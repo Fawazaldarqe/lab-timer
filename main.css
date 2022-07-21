@@ -1,0 +1,43 @@
+/* Black #181820 */
+/* Grey #272833 */
+/* White #fefeff */
+/* Orange #fc9786 */
+/* Purple #c048d2 */
+:root {
+    --our-black: #e3e3ec;
+    --our-grey: #a5abee;
+    --our-white: #f0f0f3;
+    --our-text-grey: #040413;
+    --our-blue: #3b3b3d;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0e0e0f;
+    color: var(--our-white);
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    padding: 26px;
+    padding-top: 8px;
+    
+}
+
+.hero-title {
+    font-size: 34px;
+    line-height: 34px;
+    display: flex;
+    justify-content: center;
+
+}
+#btn1{
+   cursor:pointer; 
+   background-color: rgb(170, 170, 172);
+   display: flex;
+   justify-content: center;
+   padding:10px;
+   border-radius: 3px;
+}
